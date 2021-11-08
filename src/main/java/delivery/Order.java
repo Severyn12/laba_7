@@ -42,6 +42,10 @@ public class Order {
         }
     }
 
+    public void order(){
+        this.notifyUsers();
+    }
+
     public void addItem(Item new_item){
         items.add(new_item);
     }
